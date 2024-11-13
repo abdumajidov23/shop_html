@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 30px 0 60px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.hero-content {
+    margin-top: 30px;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.brands {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.brand-item {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.products {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 180px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 0.9em;
+}
+
+.price {
+    color: #4CAF50;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.view-more {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
